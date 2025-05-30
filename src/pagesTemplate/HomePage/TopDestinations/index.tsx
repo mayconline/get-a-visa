@@ -13,6 +13,7 @@ import {
   ParagraphAsVariant,
   ParagraphSizeVariant,
 } from '@/components';
+import { CityIllustration } from '@/pagesTemplate/HomePage/TopDestinations/CityIllustration';
 
 const ILLUSTRARIONS = [
   {
@@ -75,11 +76,10 @@ export const TopDestinations = () => {
 
         <aside className="flex flex-wrap items-center justify-center lg:grid lg:grid-cols-3 gap-5">
           {ILLUSTRARIONS.map((illustration, index) => (
-            <Image
+            <CityIllustration
               key={index}
               src={illustration.src}
               alt={illustration.alt}
-              priority
             />
           ))}
         </aside>
