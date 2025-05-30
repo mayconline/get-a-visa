@@ -20,7 +20,7 @@ const STATISTICS = [
 
 export const Hero = () => {
   return (
-    <section className="flex lg:grid grid-cols-2 justify-between items-center flex-wrap gap-16 min-h-full">
+    <section className="flex lg:grid grid-cols-2 justify-between items-center flex-wrap gap-16 min-h-full px-4 pt-4 lg:max-w-[1440px] mx-auto">
       <main className="grid grid-cols-1">
         <Header />
 
