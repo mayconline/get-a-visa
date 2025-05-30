@@ -10,7 +10,12 @@ import {
 export const IllustrationHero = () => {
   return (
     <figure className="relative">
-      <Image src={ParkImg} alt="park illustration" priority />
+      <Image
+        src={ParkImg}
+        alt="park illustration"
+        priority
+        className="object-cover"
+      />
       <figcaption className="flex flex-col absolute bottom-10 left-10 max-w-[535px] mr-8">
         <Paragraph
           size={ParagraphSizeVariant['3XLarge']}
