@@ -1,5 +1,5 @@
 <p align="center">
-   <img src=".github/get-a-visa.png" alt="positivus" width="1080"  height="340"/>
+   <img src=".github/get-a-visa.png" alt="positivus" width="1080"  height="500"/>
 </p>
 
 # Positivus
@@ -38,5 +38,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### 📱 Preview Dashboard
 
 <p align="center">
-<video src='#' width=180 /> 
+<video src='https://github.com/user-attachments/assets/84b0c983-c1fa-4bc7-92b7-15f0f829074b' width=180 />
 </p>
