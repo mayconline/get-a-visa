@@ -1,5 +1,5 @@
 <p align="center">
-   <img src=".github/get-a-visa.png" alt="positivus" width="1080"  height="500"/>
+   <img src=".github/get-a-visa.png" alt="positivus" width="1080"  height="400"/>
 </p>
 
 # Positivus
@@ -17,7 +17,7 @@ Template - [Figma](https://www.figma.com/design/CENcDE2ITKgX09Ih1VYWg5/Tirar-Vis
 - [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [Next.js](https://nextjs.org/docs/getting-started)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Landing Page Deploy](#)
+- [Landing Page Deploy](https://get-a-visa.vercel.app/)
 
 ## Getting Started
 
