@@ -1,5 +1,5 @@
 <p align="center">
-   <img src=".github/get-a-visa.png" alt="positivus" width="1080"  height="400"/>
+   <img src=".github/get-a-visa-header.png" alt="positivus" />
 </p>
 
 # Positivus
