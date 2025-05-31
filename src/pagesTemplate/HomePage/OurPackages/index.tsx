@@ -40,7 +40,7 @@ const PACKAGES = [
 
 export const OurPackages = () => {
   return (
-    <section className="flex flex-col justify-between flex-wrap px-4 pt-4 mb-20 w-full lg:max-w-[1440px] mx-auto">
+    <section className="flex flex-col justify-between flex-wrap px-4 md:px-6 pt-4 md:mb-20 w-full lg:max-w-[1440px] mx-auto">
       <Button
         variant={ButtonVariant.Secondary}
         className="w-[95px] h-[41px] mb-2"
@@ -68,7 +68,7 @@ export const OurPackages = () => {
         </nav>
       </header>
 
-      <main className="flex items-center justify-between flex-wrap gap-6">
+      <main className="flex flex-wrap items-center justify-between gap-y-8 lg:gap-2">
         {PACKAGES.map((item) => (
           <PackagesCard key={item.title} {...item} />
         ))}

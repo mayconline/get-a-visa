@@ -22,14 +22,14 @@ const STEPS = [
 
 export const HowWorking = () => {
   return (
-    <section className="flex flex-col justify-between flex-wrap px-4 pt-4 mb-20 lg:max-w-[1440px] mx-auto">
+    <section className="flex flex-col justify-between flex-wrap px-4 md:px-6 pt-4 md:mb-20 lg:max-w-[1440px] mx-auto">
       <Button
         variant={ButtonVariant.Secondary}
         className="w-[169px] h-[41px] mb-3"
       >
         Veja como funciona
       </Button>
-      <main className="flex flex-wrap justify-between items-center mb-16">
+      <main className="flex flex-wrap justify-between items-center md:mb-16">
         <Paragraph
           as={ParagraphAsVariant.H3}
           size={ParagraphSizeVariant['5XLarge']}
@@ -48,10 +48,15 @@ export const HowWorking = () => {
         </Paragraph>
       </main>
 
-      <aside className="flex justify-between flex-wrap">
-        <Image src={FamilyImg} alt="happy family illustration" priority />
+      <aside className="flex flex-col lg:flex-row justify-between gap-4">
+        <Image
+          src={FamilyImg}
+          alt="happy family illustration"
+          priority
+          className="w-full lg:w-[756px]"
+        />
 
-        <article className="flex flex-col">
+        <article className="flex flex-col w-full lg:w-[528px]">
           {STEPS?.map(({ title, subtitle }, index) => (
             <Steps
               key={title}
