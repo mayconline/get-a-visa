@@ -3,6 +3,7 @@ import { CopyMessage } from '@/pagesTemplate/HomePage/CopyMessage';
 import { HowWorking } from '@/pagesTemplate/HomePage/HowWorking';
 import { TopDestinations } from '@/pagesTemplate/HomePage/TopDestinations';
 import { OurPackages } from '@/pagesTemplate/HomePage/OurPackages';
+import { Footer } from '@/pagesTemplate/HomePage/Footer';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <HowWorking />
       <TopDestinations />
       <OurPackages />
+      <Footer />
     </main>
   );
 }
