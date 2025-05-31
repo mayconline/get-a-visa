@@ -4,6 +4,7 @@ import { HowWorking } from '@/pagesTemplate/HomePage/HowWorking';
 import { TopDestinations } from '@/pagesTemplate/HomePage/TopDestinations';
 import { OurPackages } from '@/pagesTemplate/HomePage/OurPackages';
 import { Footer } from '@/pagesTemplate/HomePage/Footer';
+import { Copyright } from '@/pagesTemplate/HomePage/Copyright';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <TopDestinations />
       <OurPackages />
       <Footer />
+      <Copyright />
     </main>
   );
 }

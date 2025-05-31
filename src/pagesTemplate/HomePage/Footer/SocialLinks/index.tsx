@@ -14,7 +14,7 @@ export const SocialLinks = () => {
         Siga em nossa redes:
       </Paragraph>
 
-      <div className="flex justify-between items-end gap-5">
+      <div className="flex justify-between items-end gap-5 flex-wrap">
         {SOCIAL_LINKS.map((link) => (
           <Button
             variant={ButtonVariant.Tertiary}

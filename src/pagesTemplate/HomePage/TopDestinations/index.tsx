@@ -51,7 +51,7 @@ export const TopDestinations = () => {
         priority
         className="absolute top-0 left-0 w-full h-[423px] -z-10 object-cover"
       />
-      <main className="flex flex-col justify-center items-center mt-28 lg:max-w-[1440px] mx-auto">
+      <main className="flex flex-col justify-center items-center px-4 mt-28 lg:max-w-[1440px] mx-auto">
         <Button
           variant={ButtonVariant.Secondary}
           className="w-[127px] h-[41px] mb-2"
