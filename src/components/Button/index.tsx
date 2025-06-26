@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import React from 'react';
 import type { ButtonHTMLAttributes } from 'react';
 
 export enum ButtonVariant {
@@ -6,6 +7,7 @@ export enum ButtonVariant {
   Secondary = 'secondary',
   Tertiary = 'tertiary',
   Quaternary = 'quaternary',
+  Icon = 'icon',
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -27,6 +29,8 @@ export const Button = ({
       'bg-white hover:bg-white/90 text-gray-300 border border-gray-300',
     [ButtonVariant.Quaternary]:
       'bg-white hover:bg-white/90 text-gray-100 border border-gray-100',
+    [ButtonVariant.Icon]:
+      'bg-transparent hover:bg-gray-100 p-0 border-none shadow-none',
   };
 
   return (

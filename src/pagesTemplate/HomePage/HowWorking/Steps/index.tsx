@@ -1,3 +1,4 @@
+import React from 'react';
 import { Paragraph, ParagraphSizeVariant, Divider } from '@/components';
 
 interface StepsProps {

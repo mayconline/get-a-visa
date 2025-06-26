@@ -1,3 +1,4 @@
+import React from 'react';
 import { Paragraph } from '@/components/Paragraph';
 import Link from 'next/link';
 

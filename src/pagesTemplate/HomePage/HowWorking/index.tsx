@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import FamilyImg from '@/assets/imgs/family-img.svg';
 import {

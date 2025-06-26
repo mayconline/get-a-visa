@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import ParkImg from '@/assets/imgs/park-img.svg';
 import {

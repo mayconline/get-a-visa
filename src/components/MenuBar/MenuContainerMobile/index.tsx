@@ -1,10 +1,12 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import { useState } from 'react';
 import clsx from 'clsx';
 import { MenuList } from '@/components';
 import MenuIcon from '@/assets/icons/menu-icon.svg';
+import { Button, ButtonVariant } from '@/components/Button';
 
 export const MenuContainerMobile = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
@@ -14,14 +16,15 @@ export const MenuContainerMobile = () => {
   };
 
   return (
-    <span className="relative xl:hidden">
-      <Image
-        src={MenuIcon}
-        alt="menu icon"
-        width={48}
-        height={48}
+    <span className="relative xl:hidden" data-testid="mobile-menu">
+      <Button
+        type="button"
+        aria-label="menu"
+        variant={ButtonVariant.Icon}
         onClick={handleOpenMobileMenu}
-      />
+      >
+        <Image src={MenuIcon} alt="menu icon" width={48} height={48} />
+      </Button>
 
       <header
         className={clsx(
