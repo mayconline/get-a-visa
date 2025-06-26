@@ -25,7 +25,10 @@ export const PackagesCard = ({
   amount,
 }: PackagesCardProps) => {
   return (
-    <article className="flex flex-col justify-center gap-4 border border-gray-50 p-4 rounded-2xl">
+    <article
+      className="flex flex-col justify-center gap-4 border border-gray-50 p-4 rounded-2xl"
+      data-testid="package-card"
+    >
       <Image src={src} alt={alt} priority className="mb-8" />
 
       <header className="flex items-center gap-4">

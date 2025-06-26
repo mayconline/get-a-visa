@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import BgMask from '@/assets/bg/bg-mask.svg';
 import BaliImg from '@/assets/imgs/bali-img.svg';

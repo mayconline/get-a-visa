@@ -14,7 +14,11 @@ export const FooterLinks = () => {
   return (
     <article className="flex justify-between flex-wrap gap-28">
       {FOOTER_LINKS.map((footerLink) => (
-        <div key={footerLink.key} className="flex flex-col">
+        <div
+          key={footerLink.key}
+          className="flex flex-col"
+          data-testid={`footer-${footerLink.key.toLowerCase()}`}
+        >
           <Paragraph className="font-medium text-gray-300 mb-5">
             {footerLink.key}
           </Paragraph>

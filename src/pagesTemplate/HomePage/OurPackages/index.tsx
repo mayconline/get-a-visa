@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Button,
   ButtonVariant,
@@ -58,11 +59,20 @@ export const OurPackages = () => {
         </Paragraph>
 
         <nav className="flex items-center gap-4">
-          <Button variant={ButtonVariant.Tertiary} className="size-[54px]">
+          <Button
+            variant={ButtonVariant.Tertiary}
+            className="size-[54px]"
+            type="button"
+            aria-label="arrow-left"
+          >
             <ArrowLeftIcon className="size-6 text-black" />
           </Button>
 
-          <Button className="size-[54px]">
+          <Button
+            className="size-[54px]"
+            type="button"
+            aria-label="arrow-right"
+          >
             <ArrowRightIcon className="size-6 text-white" />
           </Button>
         </nav>

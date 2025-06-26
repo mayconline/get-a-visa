@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import { MenuBar } from '@/components';
 import Logo from '@/assets/logo/get-visa-logo.svg';
